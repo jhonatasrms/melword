@@ -15,16 +15,24 @@
             <img src="./images/mario.png" class="mario Jump">
             <img src="./images/pipe.png" class="pipe">
 
-<!-- Botão "Novo Jogo" -->
-<button id="novoJogo">Novo Jogo</button>
-</div>
+ <!-- Botão "Novo Jogo" -->
+ <button id="novoJogo">Novo Jogo</button>
 
 <script>
-    // Função para recarregar a página quando o botão "Novo Jogo" é clicado
-    document.getElementById("novoJogo").addEventListener("click", function() {
+    // Função para recarregar a página quando o botão "Novo Jogo" é tocado em dispositivos móveis
+    document.getElementById("novoJogo").addEventListener("touchstart", function() {
         location.reload();
     });
 </script>
+        </div>
+
+</body>
+</html>
+
+
+
+
+
 
         </div>
      </body>
