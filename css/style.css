@@ -53,9 +53,7 @@
     0% {
         bottom: 0;
     }
-    30% {
-        bottom: 180px;
-    }
+   
     40% {
         bottom: 180px;
     }
@@ -63,6 +61,9 @@
         bottom: 180px;
     }
     60% {
+        bottom: 180px;
+    }
+    80% {
         bottom: 180px;
     }
     100% {
