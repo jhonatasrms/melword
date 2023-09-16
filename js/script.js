@@ -33,7 +33,4 @@ const loop= setInterval(()=> {
     }, 10);
 
 document.addEventListener('keydown', jump)
-const campoDeTexto = document.getElementById('campo-de-texto');
-const textoSimulado = "Texto simulado";
-
-campoDeTexto.value = textoSimulado;
+document.addEventListener('touchstart', jump);
